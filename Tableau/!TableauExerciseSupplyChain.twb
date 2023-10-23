@@ -15,10 +15,10 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='supply_chain_data' name='textscan.1pw0hij15u05y317kyt9u1777u66'>
-            <connection class='textscan' directory='C:/Users/rezas/OneDrive/Desktop' filename='supply_chain_data.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/rezas/OneDrive/Desktop/DS-Landers/Tutorials/DataAnalysisProjects/Tableau' filename='!supply_chain_data.csv' password='' server='' />
           </named-connection>
         </named-connections>
-        <relation connection='textscan.1pw0hij15u05y317kyt9u1777u66' name='supply_chain_data.csv' table='[supply_chain_data#csv]' type='table'>
+        <relation connection='textscan.1pw0hij15u05y317kyt9u1777u66' name='!supply_chain_data.csv' table='[!supply_chain_data#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='string' name='Product type' ordinal='0' />
             <column datatype='string' name='SKU' ordinal='1' />
@@ -51,7 +51,7 @@
           <metadata-record class='capability'>
             <remote-name />
             <remote-type>0</remote-type>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias />
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -68,7 +68,7 @@
             <remote-name>Product type</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Product type]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Product type</remote-alias>
             <ordinal>0</ordinal>
             <local-type>string</local-type>
@@ -82,7 +82,7 @@
             <remote-name>SKU</remote-name>
             <remote-type>129</remote-type>
             <local-name>[SKU]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>SKU</remote-alias>
             <ordinal>1</ordinal>
             <local-type>string</local-type>
@@ -96,7 +96,7 @@
             <remote-name>Price</remote-name>
             <remote-type>5</remote-type>
             <local-name>[Price]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Price</remote-alias>
             <ordinal>2</ordinal>
             <local-type>real</local-type>
@@ -107,7 +107,7 @@
             <remote-name>Availability</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Availability]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Availability</remote-alias>
             <ordinal>3</ordinal>
             <local-type>integer</local-type>
@@ -118,7 +118,7 @@
             <remote-name>Number of products sold</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Number of products sold]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Number of products sold</remote-alias>
             <ordinal>4</ordinal>
             <local-type>integer</local-type>
@@ -129,7 +129,7 @@
             <remote-name>Revenue generated</remote-name>
             <remote-type>5</remote-type>
             <local-name>[Revenue generated]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Revenue generated</remote-alias>
             <ordinal>5</ordinal>
             <local-type>real</local-type>
@@ -140,7 +140,7 @@
             <remote-name>Customer demographics</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Customer demographics]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Customer demographics</remote-alias>
             <ordinal>6</ordinal>
             <local-type>string</local-type>
@@ -154,7 +154,7 @@
             <remote-name>Stock levels</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Stock levels]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Stock levels</remote-alias>
             <ordinal>7</ordinal>
             <local-type>integer</local-type>
@@ -165,7 +165,7 @@
             <remote-name>Lead times</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Lead times]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Lead times</remote-alias>
             <ordinal>8</ordinal>
             <local-type>integer</local-type>
@@ -176,7 +176,7 @@
             <remote-name>Order quantities</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Order quantities]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Order quantities</remote-alias>
             <ordinal>9</ordinal>
             <local-type>integer</local-type>
@@ -187,7 +187,7 @@
             <remote-name>Shipping times</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Shipping times]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Shipping times</remote-alias>
             <ordinal>10</ordinal>
             <local-type>integer</local-type>
@@ -198,7 +198,7 @@
             <remote-name>Shipping carriers</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Shipping carriers]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Shipping carriers</remote-alias>
             <ordinal>11</ordinal>
             <local-type>string</local-type>
@@ -212,7 +212,7 @@
             <remote-name>Shipping costs</remote-name>
             <remote-type>5</remote-type>
             <local-name>[Shipping costs]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Shipping costs</remote-alias>
             <ordinal>12</ordinal>
             <local-type>real</local-type>
@@ -223,7 +223,7 @@
             <remote-name>Supplier name</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Supplier name]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Supplier name</remote-alias>
             <ordinal>13</ordinal>
             <local-type>string</local-type>
@@ -237,7 +237,7 @@
             <remote-name>Location</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Location]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Location</remote-alias>
             <ordinal>14</ordinal>
             <local-type>string</local-type>
@@ -251,7 +251,7 @@
             <remote-name>Lead time</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Lead time]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Lead time</remote-alias>
             <ordinal>15</ordinal>
             <local-type>integer</local-type>
@@ -262,7 +262,7 @@
             <remote-name>Production volumes</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Production volumes]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Production volumes</remote-alias>
             <ordinal>16</ordinal>
             <local-type>integer</local-type>
@@ -273,7 +273,7 @@
             <remote-name>Manufacturing lead time</remote-name>
             <remote-type>20</remote-type>
             <local-name>[Manufacturing lead time]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Manufacturing lead time</remote-alias>
             <ordinal>17</ordinal>
             <local-type>integer</local-type>
@@ -284,7 +284,7 @@
             <remote-name>Manufacturing costs</remote-name>
             <remote-type>5</remote-type>
             <local-name>[Manufacturing costs]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Manufacturing costs</remote-alias>
             <ordinal>18</ordinal>
             <local-type>real</local-type>
@@ -295,7 +295,7 @@
             <remote-name>Inspection results</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Inspection results]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Inspection results</remote-alias>
             <ordinal>19</ordinal>
             <local-type>string</local-type>
@@ -309,7 +309,7 @@
             <remote-name>Defect rates</remote-name>
             <remote-type>5</remote-type>
             <local-name>[Defect rates]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Defect rates</remote-alias>
             <ordinal>20</ordinal>
             <local-type>real</local-type>
@@ -320,7 +320,7 @@
             <remote-name>Transportation modes</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Transportation modes]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Transportation modes</remote-alias>
             <ordinal>21</ordinal>
             <local-type>string</local-type>
@@ -334,7 +334,7 @@
             <remote-name>Routes</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Routes]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Routes</remote-alias>
             <ordinal>22</ordinal>
             <local-type>string</local-type>
@@ -348,7 +348,7 @@
             <remote-name>Costs</remote-name>
             <remote-type>5</remote-type>
             <local-name>[Costs]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Costs</remote-alias>
             <ordinal>23</ordinal>
             <local-type>real</local-type>
@@ -359,7 +359,7 @@
             <remote-name>Date</remote-name>
             <remote-type>135</remote-type>
             <local-name>[Date]</local-name>
-            <parent-name>[supply_chain_data.csv]</parent-name>
+            <parent-name>[!supply_chain_data.csv]</parent-name>
             <remote-alias>Date</remote-alias>
             <ordinal>24</ordinal>
             <local-type>datetime</local-type>
@@ -371,7 +371,7 @@
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
-      <layout dim-ordering='alphabetic' dim-percentage='0.405852' measure-ordering='alphabetic' measure-percentage='0.594148' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.419847' measure-ordering='alphabetic' measure-percentage='0.580153' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
       </semantic-values>
@@ -798,7 +798,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' name='1. ScatterPlot' tab-color='#4f779a'>
+    <window class='worksheet' maximized='true' name='1. ScatterPlot' tab-color='#4f779a'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -814,12 +814,12 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='2147483647'>
             <card type='title' />
           </strip>
         </edge>
         <edge name='bottom'>
-          <strip size='260'>
+          <strip size='194'>
             <card type='caption' />
           </strip>
         </edge>
@@ -1053,7 +1053,7 @@
       </cards>
       <simple-id uuid='{61A93925-0788-4AE4-A0C2-1D5EC2959661}' />
     </window>
-    <window class='worksheet' maximized='true' name='10. GanttChart' tab-color='#dec77b'>
+    <window class='worksheet' name='10. GanttChart' tab-color='#dec77b'>
       <cards>
         <edge name='left'>
           <strip size='160'>
